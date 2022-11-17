@@ -12,7 +12,7 @@ class Paths
 	public static final VIDEO_EXTS = ['mp4', 'webm'];
 	inline public static final SCRIPT_EXT = "lua";
 
-	static var currentLevel:String;
+	public static var currentLevel:String;
 
 	static public function setCurrentLevel(name:String)
 	{
