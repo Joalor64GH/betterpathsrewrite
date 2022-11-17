@@ -127,7 +127,7 @@ class ModPaths
 {
     static final currentLevel:String = Paths.currentLevel;
 
-	static public function file(file:String:AssetType, ?mod:String)
+	static public function file(file:String, ?mod:String)
 	{
 		var path = "";
 		if (mod != null)
