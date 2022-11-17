@@ -88,7 +88,7 @@ class Paths
 
 	inline static public function font(key:String)
 	{
-		return 'fonts/$key';
+		return 'assets/fonts/$key';
 	}
 
 	inline static public function locales(key:String)
